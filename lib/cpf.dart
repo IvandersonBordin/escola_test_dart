@@ -1,15 +1,9 @@
 class Cpf {
-  String _numero;
+  String numero;
 
-  Cpf(String numero) {
-    _numero = numero;
-  }
+  Cpf(this.numero); // construtor não nomeado = new Cpf('0');
 
   bool get verificado {
-    return _numero.length == 13;
-  }
-
-  String get numero {
-    return _numero;
+    return numero.length == 13;
   }
 }

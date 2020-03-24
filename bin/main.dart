@@ -5,11 +5,17 @@ import 'package:escola_teste/cpf.dart';
 void main() {
   Escola escola = Escola(
     nome: 'Escolinha',
-    aluno: Aluno(
-      nome: 'Ivan',
-      cpf: Cpf('000.000.000-00'),
-    ),
+    alunos: <Aluno>[
+      Aluno(
+        nome: 'Ivan',
+        cpf: Cpf('000.000.000-00'),
+      ),
+      Aluno(
+        nome: 'Wígny',
+        cpf: Cpf('111.111.111-11'),
+      ),
+    ],
   );
 
-  print(escola.aluno.cpf.verificado);
+  print(escola.alunosNomes);
 }

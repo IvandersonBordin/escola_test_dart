@@ -1,19 +1,15 @@
 import 'package:escola_teste/aluno.dart';
 
 class Escola {
-  Aluno _aluno;
-  String _nome;
+  List<Aluno> alunos;
+  String nome;
 
-  Escola({Aluno aluno, String nome}) {
-    _aluno = aluno;
-    _nome = nome;
-  }
+  Escola({
+    this.alunos,
+    this.nome,
+  });
 
-  Aluno get aluno {
-    return _aluno;
-  }
+  int get quantidadeAlunos => alunos.length; // arrow function significa return
 
-  String get nome {
-    return _nome;
-  }
+  List<String> get alunosNomes => alunos.map((e) => e.nome).toList();
 }
