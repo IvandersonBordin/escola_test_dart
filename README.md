@@ -1,4 +1,3 @@
-Integração Contínua: 
 ![](https://github.com/IvandersonBordin/escola_test_dart/workflows/Dart%20CI/badge.svg)
 
 A sample command-line application with an entrypoint in `bin/`, library code
