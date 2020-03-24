@@ -4,16 +4,16 @@ class Escola {
   Aluno _aluno;
   String _nome;
 
-  Escola(Aluno aluno, String nome) {
+  Escola({Aluno aluno, String nome}) {
     _aluno = aluno;
     _nome = nome;
   }
 
-  Aluno getAluno() {
-    return aluno;
+  Aluno get aluno {
+    return _aluno;
   }
 
-  String getNome() {
-    return nome;
+  String get nome {
+    return _nome;
   }
 }
