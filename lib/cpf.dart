@@ -6,7 +6,7 @@ class Cpf {
   }
 
   bool get verificado {
-    return _numero.length == 13;
+    return _numero.length == 14;
   }
 
   String get numero {
