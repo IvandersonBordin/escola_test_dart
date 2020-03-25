@@ -3,7 +3,6 @@ import 'package:escola_teste/cpf.dart';
 
 void main() {
 
-// agora só rodar o teste desse grupo
 
   group('Cpf', () {
     final cpf = Cpf('000.000.000-00');
@@ -17,5 +16,3 @@ void main() {
     });
   });
 }
-//cpf deu erro ahhh 13 digitos tem que ser 14 kjkkkkk 
-// corrige la na classe
