@@ -3,7 +3,7 @@ import 'package:escola_teste/escola.dart';
 import 'package:escola_teste/cpf.dart';
 
 void main() {
-  Escola escola = Escola(
+  final escola = Escola(
     nome: 'Escolinha',
     aluno: Aluno(
       nome: 'Ivan',
