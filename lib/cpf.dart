@@ -1,15 +1,9 @@
 class Cpf {
-  String _numero;
+  String numero;
 
-  Cpf(String numero) {
-    _numero = numero;
-  }
+  Cpf(this.numero);
 
   bool get verificado {
-    return _numero.length == 14;
-  }
-
-  String get numero {
-    return _numero;
+    return numero.length == 14;
   }
 }
